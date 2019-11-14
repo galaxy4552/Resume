@@ -1,37 +1,106 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/galaxy4552/Resume/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/galaxy4552/Resume/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="tw">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>第一份簡歷</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <hr>
+      <div class="row">
+        <div class="col-6">
+          <h1>王楷霖</h1>
+        </div>
+        <div class="col-6">
+          <p class="text-right"></p>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-8 col-sm-12">
+          <div class="media">
+            <img class="mr-3" src="images/1.gif" >
+            <div class="media-body">
+              <h5 class="mt-0"><strong>前端工程師</strong></h5>
+            俗話說隔行如隔山 所以我決定從基礎開始學 從CS50學習到程式的基礎 但是對PG來說也是要有個方向&nbsp; Python coding 是我第一個學習目標 國中時候曾經用 frontpage 做過網站 filezilla 上傳至網路空間 便開始了我的前端工程師之路</div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="row justify-content-md-around m-1">
+            <address>
+              <strong>王楷霖</strong><br>
+              新北市三峽區
+              <br>
+              <abbr title="Phone">P</abbr> &nbsp;:(0911) 907745<br>
+            <a href="mailto:galaxy4552@livemail.tw">galaxy4552@livemail.tw</a>
+            </address>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <h2>學歷</h2>
+			<hr>        
+          <p>私立海星高中<br>
+			 國立中興大學
+		    </p>
+			<hr>
+			<h2>經歷</h2>
+			<hr>
+          <p>永慶不動產 營業員 北大店建構粉絲專頁<br>
+			 魔獸世界 插件修復 ~>使用lua		 
+		    </p>
+		  <hr>
+		  <h2>工具</h2>
+		  <hr>
+		  <p>Dreamweaver<br>
+			 VSC<br>
+			 Sublime 3<br>
+			</p>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h2>技能</h2>
+          <hr>
+          <div class="progress mt-4">
+            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%"> HTML</div>
+          </div>
+          <div class="progress mt-4">
+            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"> CSS</div>
+          </div>
+          <div class="progress mt-4">
+            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 60%"> JAVASCRIPT</div>
+          </div>
+          <div class="progress mt-4">
+            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%"> Python</div>
+          </div>
+          <div class="progress mt-4">
+            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 30%"> GIT</div>
+          </div>
+	      <div class="progress mt-4">
+            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 30%"> PHOTOSHOP</div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <footer class="text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p>Copyright © MyWebsite. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.3.1.js"></script>
+  </body>
+</html>
